@@ -38,14 +38,8 @@ def play(songs)
   puts "Please enter a song name or number:"
   user_input = gets.strip
   
-  i = 0
-  while i < array.
-  if songs.include? user_input
-    puts songs[user_input]
-  elsif
-    puts songs[user_input]
-  else
-    puts "Invalid input, please try again"
+  songs.each do |song, location|
+    binding.pry
   end
   
   # if user_input == valid_song or number
