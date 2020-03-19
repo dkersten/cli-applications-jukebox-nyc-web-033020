@@ -38,6 +38,10 @@ def play(songs)
   puts "Please enter a song name or number:"
   user_input = gets.strip
   
+  i = 0
+  while i < array.
+  if songs.user_input == 
+  
   # if user_input == valid_song or number
   #   puts "Playing #{song_name}"
   # else
