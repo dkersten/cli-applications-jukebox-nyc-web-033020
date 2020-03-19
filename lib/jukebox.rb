@@ -40,7 +40,11 @@ def play(songs)
   user_input = gets.strip
   
   songs.each_with_index do |song, index|
-    if user_input.to_i == ()
+    if user_input.to_i == (idx+1) || user_input == song
+      puts "Playing #{song}"
+    else
+      puts ""
+    end
   end
   
   # if user_input == valid_song or number
