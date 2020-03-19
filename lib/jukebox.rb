@@ -42,6 +42,8 @@ def play(songs)
   while i < array.
   if songs.include? = user_input
     puts songs[user_input]
+  elsif
+    puts songs[user_input]
   else
     puts "Invalid input, please try again"
   end
