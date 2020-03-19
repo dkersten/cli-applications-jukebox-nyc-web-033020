@@ -43,7 +43,7 @@ def play(songs)
     if user_input.to_i == (idx+1) || user_input == song
       puts "Playing #{song}"
     else
-      puts ""
+      puts "Invalid input, please try again"
     end
   end
   
