@@ -43,7 +43,7 @@ def play(songs)
   if songs.user_input == 
     
   else
-    puts "Invalid input, "
+    puts "Invalid input, please try again"
   end
   
   # if user_input == valid_song or number
