@@ -41,6 +41,10 @@ def play(songs)
   i = 0
   while i < array.
   if songs.user_input == 
+    
+  else
+    puts "Invalid input, "
+  end
   
   # if user_input == valid_song or number
   #   puts "Playing #{song_name}"
