@@ -40,8 +40,8 @@ def play(songs)
   
   i = 0
   while i < array.
-  if songs.user_input == 
-    
+  if songs[user_input] == 
+    puts songs[user_input]
   else
     puts "Invalid input, please try again"
   end
